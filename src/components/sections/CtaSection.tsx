@@ -45,7 +45,7 @@ export const CtaSection = () => {
         Object.entries(formData).forEach(([key, val]) => params.append(key, val || ''));
 
         await fetch(
-          'https://script.google.com/macros/s/AKfycbyUhRQTTgrc7FmlWBzgAfpVWotsVrhgf8zNSl7x2lWyANKXs3mL2GNfVonk9RJKYde4/exec',
+          'https://script.google.com/macros/s/AKfycbzA_WXDX3b4iWocfje_nGNH-eV4eBjvj26FkXivO3fYuHZWgkizo--tKf00-aCYg1OE/exec',
           { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: params.toString() }
         );
 

@@ -4,17 +4,17 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#0c5d69] pt-16 pb-8 border-t border-white/10">
+    <footer className="bg-black pt-16 pb-8 border-t border-white/10">
       <div className="container mx-auto px-6 md:px-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
 
           {/* Logo & Description */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <Image src="/assets/logo.png" alt="Optimus Eye Hospital" width={160} height={60} className="" style={{ width: 'auto', height: 'auto' }} />
+              <Image src="/assets/logo.png" alt="Optimus Eye Hospital" width={160} height={60} className="" />
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              A specialist centre for LASIK vision correction and comprehensive eye care — guided by precision, driven by compassion.
+              A specialist centre for LASIK vision correction and comprehensive eye health — guided by precision, driven by compassion.
             </p>
           </div>
 

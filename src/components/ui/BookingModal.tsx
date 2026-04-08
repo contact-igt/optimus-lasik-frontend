@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect } from 'react';
 import { X, User, Phone, ArrowRight, CheckCircle2, Loader2 } from 'lucide-react';
@@ -77,7 +77,7 @@ export const BookingModal = () => {
 
         // Google Sheets Script Endpoint
         const res = await fetch(
-          "https://script.google.com/macros/s/AKfycbyUhRQTTgrc7FmlWBzgAfpVWotsVrhgf8zNSl7x2lWyANKXs3mL2GNfVonk9RJKYde4/exec",
+          "https://script.google.com/macros/s/AKfycbzA_WXDX3b4iWocfje_nGNH-eV4eBjvj26FkXivO3fYuHZWgkizo--tKf00-aCYg1OE/exec",
           {
             method: "POST",
             mode: 'no-cors', // Google Apps Script usually requires no-cors if not handling OPTIONS
