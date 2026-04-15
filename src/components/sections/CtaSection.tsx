@@ -63,11 +63,11 @@ export const CtaSection = () => {
   return (
     <>
       {/* ── MAIN CTA SECTION (Div 08) ── */}
-      <section id="book" className="relative py-20 lg:py-28 bg-[#0c5d69] overflow-hidden">
+      <section id="book" className="relative py-12 md:py-20 lg:py-28 bg-[#0c5d69] overflow-hidden">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#cae2f2] opacity-10 rounded-full blur-3xl transform translate-x-1/3 -translate-y-1/3" />
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#cae2f2] opacity-10 rounded-full blur-3xl transform -translate-x-1/3 translate-y-1/3" />
 
-        <div className="container mx-auto px-6 md:px-16 relative z-10 w-full">
+        <div className="container mx-auto px-4 sm:px-6 md:px-16 relative z-10 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
 
             {/* Left — Content */}
@@ -75,11 +75,12 @@ export const CtaSection = () => {
               <div className="space-y-8">
                 <div>
                   <h2 className="font-['Cormorant_Garamond',serif] text-4xl md:text-5xl font-bold text-white leading-tight mb-5">
-                    Book Your LASIK<br />
+                    Book Your Cataract <br />
                     <span className="italic font-medium text-[#cae2f2]">Consultation Today</span>
                   </h2>
                   <p className="text-white/70 text-lg font-light leading-relaxed max-w-lg">
-                    If you are considering LASIK or another vision correction procedure, visit Optimus Eye Hospital for a proper eye evaluation and expert guidance from a trusted refractive care team.
+                   If cataract symptoms are affecting your daily life, visit Optimus Eye Hospital for a proper eye evaluation and expert treatment guidance from a trusted specialist team.
+
                   </p>
                 </div>
 
@@ -92,7 +93,7 @@ export const CtaSection = () => {
                     <Phone size={16} /> Call Now
                   </a>
                   <a
-                    href="https://wa.me/919919965200?text=Hi%2C%20I%20would%20like%20to%20book%20a%20LASIK%20consultation."
+                    href="https://wa.me/919919965200?text=Hi%2C%20I%20would%20like%20to%20book%20a%20CATARACT%20consultation."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-[#25D366] text-white hover:bg-[#1ebe5a] px-6 py-3.5 rounded-xl text-sm font-bold transition-all hover:-translate-y-0.5"
@@ -105,7 +106,7 @@ export const CtaSection = () => {
                     onClick={openModal}
                     className="inline-flex items-center gap-2 bg-[#13a2b7] text-white hover:bg-[#0f8fa1] px-6 py-3.5 rounded-xl text-sm font-bold transition-all hover:-translate-y-0.5"
                   >
-                    <ArrowRight size={16} /> Book LASIK Consultation
+                    <ArrowRight size={16} /> Book Cataract  Consultation
                   </button>
                 </div>
 
@@ -257,7 +258,7 @@ function StickyMobileBar({ onBook }: { onBook: () => void }) {
           <Phone size={16} /> Call
         </a>
         <a
-          href="https://wa.me/919919965200?text=Hi%2C%20I%20would%20like%20to%20book%20a%20LASIK%20consultation."
+          href="https://wa.me/919919965200?text=Hi%2C%20I%20would%20like%20to%20book%20a%20Cataract%20consultation."
           target="_blank"
           rel="noopener noreferrer"
           id="sticky-whatsapp"
